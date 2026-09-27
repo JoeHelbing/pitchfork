@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.28.1](https://github.com/jdx/pitchfork/compare/v2.28.0...v2.28.1) - 2026-09-27
+
+### Fixed
+
+- *(ipc)* remove the broken MessagePack mode selected by IPC_JSON=false ([#930](https://github.com/jdx/pitchfork/pull/930))
+
+### Other
+
+- *(proxy)* stop DNS responder tests failing on Windows port exclusions ([#926](https://github.com/jdx/pitchfork/pull/926))
+
 ## [2.28.0](https://github.com/jdx/pitchfork/compare/v2.27.0...v2.28.0) - 2026-09-27
 
 ### Added
